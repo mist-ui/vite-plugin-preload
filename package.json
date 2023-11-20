@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-preload",
-  "version": "0.3.0",
+  "name": "@mistjs/vite-plugin-preload",
+  "version": "0.0.1",
   "author": "jarlef",
   "repository": {
     "type": "git",
@@ -11,6 +11,9 @@
   },
   "homepage": "https://github.com/jarlef/vite-plugin-preload/tree/main/#readme",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean": "del dist \"./examples/*/dist/\" \"./examples/*/node_modules/\"",
     "build": "tsup",
